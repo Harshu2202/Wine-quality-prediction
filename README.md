@@ -85,7 +85,7 @@ wine-quality-prediction/
 
 **📌 Project Status**
 
-Currently in development. Data inspection and initial cleaning are done. Exploratory analysis, Two (linear regression and Decision Tree ) of the three models are implemented and evaluated. last  model(random forest ) and comaprison  is follow up.
+Currently in development. Data inspection and initial cleaning are done. Exploratory analysis,all  (linear regression , Decision Tree , random forest  ) of the three models are implemented and evaluated .Comaprison  is follow up.
 
 **👨‍💻 Author**
 
