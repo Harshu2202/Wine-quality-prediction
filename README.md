@@ -1,34 +1,34 @@
-                              **🍷 Wine Quality Prediction Using Machine Learning**
+# 🍷 Wine Quality Prediction Using Machine Learning
 
-**📌 Project Overview**
+## 📌 Project Overview
 
-This project aims to predict the quality of red wine using physicochemical properties through Machine Learning regression techniques.
+This project aims to predict the quality of red wine using its physicochemical properties through Machine Learning regression techniques.
 
-The goal is to understand how different chemical characteristics influence wine quality and build a model that can estimate wine quality scores.
+The objective is to understand how different chemical characteristics influence wine quality and develop models that estimate wine quality scores.
 
-**📊 Dataset**
+## 📊 Dataset
 
-- Dataset: Wine Quality (Red Wine)
-- Source: "UCI Machine Learning Repository" (https://archive.ics.uci.edu/dataset/186/wine+quality)
-- Records: 1,599
-- Features: 11 independent variables
-- Target Variable: Quality
+- **Dataset:** Wine Quality (Red Wine)
+- **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/186/wine+quality)
+- **Records:** 1,599
+- **Features:** 11 independent variables
+- **Target Variable:** Quality
 
-**Features**
+### Features
 
-- Fixed Acidity
-- Volatile Acidity
-- Citric Acid
-- Residual Sugar
-- Chlorides
-- Free Sulfur Dioxide
-- Total Sulfur Dioxide
-- Density
-- pH
-- Sulphates
-- Alcohol
+1. Fixed Acidity
+2. Volatile Acidity
+3. Citric Acid
+4. Residual Sugar
+5. Chlorides
+6. Free Sulfur Dioxide
+7. Total Sulfur Dioxide
+8. Density
+9. pH
+10. Sulphates
+11. Alcohol
 
-**🛠️ Technologies Used**
+## 🛠️ Technologies Used
 
 - Python
 - Pandas
@@ -36,62 +36,83 @@ The goal is to understand how different chemical characteristics influence wine 
 - Matplotlib
 - Seaborn
 - Scikit-learn
+- Joblib
 - Google Colab
 
-**🔍 Project Workflow**
+## 🔍 Project Workflow
 
 1. Data Collection
 2. Data Loading and Inspection
 3. Data Cleaning and Duplicate Handling
 4. Exploratory Data Analysis (EDA)
-5. Feature Selection
+5. Feature Analysis
 6. Data Preprocessing
 7. Train-Test Split
-8. Regression Model Building
+8. Regression Model Development
 9. Model Evaluation
-10. Model Comparison and Optimization
+10. Model Comparison
+11. Cross-Validation
+12. New Sample Prediction
+13. Model Saving and Loading
 
-**🤖 Machine Learning Algorithms**
+## 🤖 Machine Learning Algorithms
 
-The following regression algorithms will be explored:
+Three regression algorithms were implemented:
 
 - Linear Regression
 - Decision Tree Regressor
 - Random Forest Regressor
 
-**📈 Model Evaluation Metrics**
+## 📈 Model Evaluation Metrics
 
-Models will be evaluated using:
+The models were evaluated using:
 
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - Root Mean Squared Error (RMSE)
 - R² Score
-**
-📂 Project Structure**
 
+Additional evaluation included 5-Fold Cross-Validation and Feature Importance Analysis.
+
+## 📂 Project Structure
+
+```text
 wine-quality-prediction/
 │
 ├── wine_quality_prediction.ipynb
+├── wine_quality_model.pkl
+├── wine_features.pkl
 ├── README.md
+├── requirements.txt
 └── .gitignore
+```
 
-**🚀 How to Run**
+## 🚀 How to Run
 
-1. Clone this repository.
-2. Open the notebook using Google Colab or Jupyter Notebook.
-3. Install the required Python libraries.
+1. Clone this repository:
+
+   `git clone https://github.com/Harshu2202/Wine-quality-prediction.git`
+
+2. Install the required libraries:
+
+   `pip install -r requirements.txt`
+
+3. Open the notebook using Google Colab or Jupyter Notebook.
+
 4. Execute the notebook cells sequentially.
 
-**📌 Project Status**
-project completed, evaluated and currently running.
+5. Use the saved Random Forest model for new wine quality predictions.
 
-**👨‍💻 Author**
+## 📌 Project Status
 
-Harshu2202
+**Completed:** Model development, evaluation, comparison, cross-validation, and prediction testing.
 
-GitHub: "Harshu2202" (https://github.com/Harshu2202)
+## 👨‍💻 Author
+
+**Harshu**
+
+GitHub: [Harshu2202](https://github.com/Harshu2202)
 
 ---
 
-Built as a Machine Learning regression project for learning and portfolio development.
+Built as a Machine Learning regression project for practical learning and portfolio development.
