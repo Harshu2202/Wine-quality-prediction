@@ -84,8 +84,7 @@ wine-quality-prediction/
 4. Execute the notebook cells sequentially.
 
 **📌 Project Status**
-
-Currently in development. Data inspection and initial cleaning are done. Exploratory analysis,all  (linear regression , Decision Tree , random forest  ) of the three models are implemented and evaluated .Comaprison  is follow up.
+project completed, evaluated and currently running.
 
 **👨‍💻 Author**
 
