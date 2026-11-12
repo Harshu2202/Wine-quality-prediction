@@ -6,7 +6,7 @@ This project aims to predict the quality of red wine using its physicochemical p
 
 The objective is to understand how different chemical characteristics influence wine quality and develop models that estimate wine quality score.
 
-## 📊 Dataset
+##  📊 Dataset
 
 - **Dataset:** Wine Quality (Red Wine)
 - **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/186/wine+quality)
