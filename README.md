@@ -4,7 +4,7 @@
 
 This project aims to predict the quality of red wine using its physicochemical properties through Machine Learning regression techniques.
 
-The objective is to understand how different chemical characteristics influence wine quality and develop models that estimate wine quality scores.
+The objective is to understand how different chemical characteristics influence wine quality and develop models that estimate wine quality score.
 
 ## 📊 Dataset
 
