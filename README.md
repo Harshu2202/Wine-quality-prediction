@@ -30,13 +30,13 @@ The objective is to understand how different chemical characteristics influence 
 
 ## 🛠️ Technologies Used
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Joblib
+- Python (`3.15+`)
+- Pandas (`3.1+`)
+- NumPy (`2.5+`)
+- Matplotlib (`3.10+`)
+- Seaborn (`0.13+`)
+- Scikit-learn (`1.9+`)
+- Joblib (`1.5+`)
 - Google Colab
 
 ## 🔍 Project Workflow
