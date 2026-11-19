@@ -41,34 +41,36 @@ The objective is to understand how different chemical characteristics influence 
 
 ## 🔍 Project Workflow
 
-1. Data Collection
-2. Data Loading and Inspection
-3. Data Cleaning and Duplicate Handling
-4. Exploratory Data Analysis (EDA)
-5. Feature Analysis
-6. Data Preprocessing
-7. Train-Test Split
-8. Regression Model Development
-9. Model Evaluation
-10. Model Comparison
-11. Cross-Validation
-12. New Sample Prediction
-13. Model Saving and Loading
+1. **Data Collection** – Gather the Wine Quality dataset containing physicochemical properties and quality ratings.
+2. **Data Loading and Inspection** – Load the dataset using Pandas and inspect shape, data types, and summary statistics.
+3. **Data Cleaning and Duplicate Handling** – Check for missing values and remove duplicate entries to ensure data integrity.
+4. **Exploratory Data Analysis (EDA)** – Visualize feature distributions and target variable patterns using Matplotlib and Seaborn.
+5. **Feature Analysis** – Evaluate feature correlations with wine quality to identify key predictors.
+6. **Data Preprocessing** – Prepare input features (`X`) and target labels (`y`), applying scaling or encoding where appropriate.
+7. **Train-Test Split** – Partition the dataset into training and testing subsets to evaluate generalization.
+8. **Regression Model Development** – Train multiple regression models on the training set.
+9. **Model Evaluation** – Assess model performance on unseen test data using standard regression metrics.
+10. **Model Comparison** – Compare error rates and variance explained across models to select the best performer.
+11. **Cross-Validation** – Apply k-fold cross-validation to verify model stability and prevent overfitting.
+12. **New Sample Prediction** – Test the trained model on new wine physicochemical inputs to predict quality scores.
+13. **Model Saving and Loading** – Serialize the best-performing model with Joblib for future reuse and deployment.
 
 ## 🤖 Machine Learning Algorithms
 
 Three regression algorithms were implemented:
 
-- Linear Regression
-- Decision Tree Regressor
-- Random Forest Regressor
+- **Linear Regression** – Baseline parametric model assuming a linear relationship between physicochemical features and wine quality.
+- **Decision Tree Regressor** – Non-linear tree-based model that splits features based on variance reduction.
+- **Random Forest Regressor** – Ensemble bagging method combining multiple decision trees to improve accuracy and reduce overfitting.
 
 ## 📈 Model Evaluation Metrics
 
 The models were evaluated using:
 
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
+- **Mean Absolute Error (MAE)** – Measures the average magnitude of absolute prediction errors.
+- **Mean Squared Error (MSE)** – Penalizes larger prediction errors by squaring the residuals.
+- **Root Mean Squared Error (RMSE)** – Expresses the square root of MSE in the same units as the wine quality score.
+- **R-squared ($R^2$ Score)** – Indicates the proportion of variance in wine quality explained by the model.
 - Root Mean Squared Error (RMSE)
 - R² Score
 
